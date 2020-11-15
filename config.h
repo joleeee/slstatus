@@ -63,13 +63,14 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ disk_free,	"\uf0c7[%s |",		"/" },
-	{ disk_free,	"%s ]  ",		"/mnt/Volvo/" },
+	{ disk_free,	"\uf0c7[%s ]   ",	"/" },
 	{ cpu_perc,	"\uf3fd[ %s%% ",	NULL },
 	{ cpu_freq,	"/%sHz ]   ",		NULL },
 	{ ram_used,	"\uf538[%s /",		NULL },
 	{ ram_total,	"%s ]   ",		NULL },
-	{ netspeed_tx,	"\uf093/\uf019[%s ",	"wlp7s0" },
-	{ netspeed_rx,	"/%s ]   ",		"wlp7s0" },
+	{ netspeed_tx,	"\uf093/\uf019[%s ",	"wlp6s0" },
+	{ netspeed_rx,	"/%s ]   ",		"wlp6s0" },
+	{ battery_perc, "\uf5df[ %s%%",		"BAT0" },
+	{ battery_state, "%s ]   ",		"BAT0" },
 	{ datetime,	"\uf017[%s]",		"W%V D%j %a %d/%m/%Y %H:%M" },
 };
