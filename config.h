@@ -68,7 +68,7 @@ static const struct arg args[] = {
 	//{ netspeed_tx,	"\uf093/\uf019/\uf1eb[%s ",	"wlp6s0" },
 	//{ netspeed_rx,	"/%s",			"wlp6s0" },
 	//{ wifi_perc,	"%s%% ",		"wlp6s0" },
-	{ battery_perc, "| BAT %s%%",		"BAT0" },
+	//{ battery_perc, "| BAT %s%%",		"BAT0" },
 	{ battery_state,"%s ",		"BAT0" },
 	{ datetime,	"| DATE %s",		"%d/%m %H:%M" },
 };
